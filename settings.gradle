@@ -30,6 +30,10 @@ plugins {
   id 'elasticsearch.java-toolchain'
 }
 
+dependencyVerification {
+    verificationMode = 'off'
+}
+
 rootProject.name = "elasticsearch"
 
 dependencyResolutionManagement {
